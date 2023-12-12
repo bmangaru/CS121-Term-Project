@@ -42,14 +42,12 @@ def log_medicine_taken():
         if response == 'y':
             status = 1
             print("\nUsing your asthma inhaler is easy:")
-            print("  - Shake it well.")
+            print("  - Shake inhaler well.")
             print("  - Take off the cap and breathe out.")
             print("  - Hold the inhaler with your finger on top and your thumb underneath.")
             print("  - Put the mouthpiece in your mouth, close your lips, and breathe in slowly when you press the spray button.")
             print("  - Hold your breath for 10 seconds, then breathe out.")
-            print("  - If you need a second puff, wait a bit.")
-            print("  - Rinse your mouth if your doctor says so.")
-            print("  - Always follow your doctor's instructions for the best results!")
+          
 
             dates.append(current_date)
             times.append(current_time.strftime('%I:%M %p'))
@@ -157,7 +155,7 @@ def main():
     elif current_streak == 1:
         print("\nCongratulations on completing one day of your streak! Here's a motivational message to inspire you:")
         print(random.choice([
-            "Fantastic job! You've completed one more day of your streak – a testament to your commitment and discipline.",
+            "Fantastic job! You've completed one more day of your streak a testament to your commitment and discipline.",
             "Day by day, you're building a chain of success. Today marks another triumph in your journey to better health!",
             "One day at a time, you're creating a positive routine. Embrace today's victory in your quest for well-being.",
             "Today's success is a building block for a healthier future. Keep up the good work on this journey of self-care.",
